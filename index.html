@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Tахистоскоп</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <style type="text/css" rel="stylesheet">
+        html,body {
+            height: 100%;
+        }
+        body {
+            background-color: lightsteelblue;
+        }
+        #main {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            height: 100%;
+            min-height: 100%;
+        }
+        .mt-10 {
+            margin-top: 10px;
+        }
+        .full-height {
+            height: 100%;
+            min-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" class="container">
+        <div class="panel panel-info full-height">
+            <div class="panel-heading">
+                <h3 class="panel-title">Тренеровка скотости визуального воссприятия</h3>
+            </div>
+            <div class="panel-body">
+                <div>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#about" aria-controls="rules" role="tab" data-toggle="tab">О методике</a></li>
+                        <li role="presentation"><a href="#help" aria-controls="rules" role="tab" data-toggle="tab">Как пользоваться</a></li>
+                        <li role="presentation"><a href="#training" aria-controls="training" role="tab" data-toggle="tab"><strong>Обучение</strong></a></li>
+                        <li role="presentation"><a href="#results" aria-controls="results" role="tab" data-toggle="tab"><strong>Текущие результаты</strong></a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="about">About...</div>
+                        <div role="tabpanel" class="tab-pane" id="help">Help...</div>
+                        <div role="tabpanel" class="tab-pane" id="training">
+                            <div class="panel panel-default mt-10">
+                                <div class="panel-heading">настройки</div>
+                                <div class="panel-body">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="results">Current result...</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
